@@ -49,4 +49,20 @@ git checkout -b <branch-name>
 2. Compare & pull request
 3. Create pull request
 
+---
+
 ### Pull from Upstream
+
+1. Change back to main branch.
+
+```
+git checkout main
+```
+
+2. After changes have been merged, pull changes from upstream.
+
+```
+git pull upstream main
+```
+
+3. Sync forked repository in GitHub to reflect the recent changes made.
